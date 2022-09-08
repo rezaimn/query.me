@@ -1,0 +1,71 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.user-list {
+  .list-row{
+    cursor: pointer;
+  }
+  &__rows {
+    &__trigger {
+      cursor: pointer;
+
+      &__action {
+        .bp3-icon {
+          color: $gray3;
+        }
+      }
+    }
+  }
+
+  &__initials {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-gray5;
+    margin-right: 13px;
+  }
+
+  &__tags {
+    height: 59px;
+    border-top: solid 1px #d2d6d8;
+    border-bottom: solid 1px #d2d6d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-gray5;
+    padding: 0 14px;
+
+    &__list {
+      display: flex;
+
+      & > * {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.user-details-panel {
+  &__email {
+    font-size:16px;
+  }
+
+  &__tags {
+    &__list {
+      margin: 20px;
+      margin-left: 0;
+      display: flex;
+
+      & > * {
+        margin-right: 10px;
+        /* color: $dark-gray1;
+        background-color: $light-gray4; */
+      }
+    }
+  }
+
+  &__hints {
+    font-size:14px;
+  }
+}

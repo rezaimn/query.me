@@ -1,0 +1,49 @@
+.custom-radio-button {
+  margin:'5px 3px';
+
+  &__input {
+    margin-left: 25px;
+    width: calc(100% - 25px);
+  }
+
+  &__dateinput {
+    margin-left: 25px;
+    width: calc(100% - 25px);
+  }
+
+  .bp3-popover-content {
+    .bp3-datepicker.custom-radio-button__dateinput {
+      margin-left: 0;
+    }
+  }
+}
+
+.filters {
+  &__menu {
+    width: 235px;
+
+    &__apply {
+      width: 100%;
+      padding: 3px 5px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      min-height: unset;
+    }
+  }
+}
+
+.select-btn {
+  min-width: 225px;
+  display: block;
+  margin-bottom: 8px;
+
+  .bp3-icon {
+    float: right;
+  }
+}
+
+.tag-item {
+  .bp3-menu-item {
+    padding: 0;
+  }
+}

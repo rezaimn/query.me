@@ -1,0 +1,29 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "supportFile": "cypress/support/index.js",
+  "testFiles": [
+    "notebook-tests/notebook-create-delete-test.spec.js",
+    "notebook-tests/notebook-page-management-test.spec.js",
+    "notebook-tests/notebook-filter-container-test.spec.js",
+    "notebook-tests/notebook-editor-sql-test.spec.js",
+    "notebook-tests/notebook-editor-test.spec.js",
+    "notebook-tests/notebooks-creation-test.spec.js",
+    "notebook-tests/notebooks-test.spec.js",
+    "notebook-tests/notebook-list-test.spec.js",
+    "notebook-tests/notebook-left-menu-test.spec.js",
+    "database-tests/database-filter-container-test.spec.js",
+    "database-tests/database-left-menu-test.spec.js",
+    "database-tests/database-list-test.spec.js",
+    "table-tests/table-filter-container-test.spec.js",
+    "table-tests/table-left-menu-test.spec.js",
+    "table-tests/table-list-test.spec.js",
+    "schema-tests/schema-filter-container-test.spec.js",
+    "schema-tests/schema-left-menu-test.spec.js",
+    "schema-tests/schema-list-test.spec.js",
+    "user-tests/user-filter-container-test.spec.js",
+    "user-tests/user-list-test.spec.js",
+    "user-tests/user-left-menu-test.spec.js"
+  ],
+  "defaultCommandTimeout": 10000,
+  "projectId": "j6ybj4"
+}

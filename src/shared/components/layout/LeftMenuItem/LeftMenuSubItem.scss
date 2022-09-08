@@ -1,0 +1,21 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.left-menu-sub-item {
+  color: $gray1;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding: 5px 0;
+
+  &.selectable {
+    cursor: pointer;
+  }
+
+  .bp3-icon {
+    margin-right: 7px;
+  }
+
+  &__label {
+    font-size: 18px;
+  }
+}

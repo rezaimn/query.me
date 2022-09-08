@@ -1,0 +1,7 @@
+.setup-layers {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  height: calc(100vh - 220px);
+  overflow-y: auto;
+}

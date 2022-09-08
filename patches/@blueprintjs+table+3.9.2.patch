@@ -1,0 +1,12 @@
+diff --git a/node_modules/@blueprintjs/table/lib/esm/table2Utils.js b/node_modules/@blueprintjs/table/lib/esm/table2Utils.js
+index f9cc0eb..06cdbaf 100644
+--- a/node_modules/@blueprintjs/table/lib/esm/table2Utils.js
++++ b/node_modules/@blueprintjs/table/lib/esm/table2Utils.js
+@@ -25,6 +25,7 @@ export function getHotkeysFromProps(props, hotkeysImpl) {
+     var hotkeys = [];
+     if (getCellClipboardData != null) {
+         hotkeys.push({
++            disabled: true, /* because of how in useHotkeys, isTargetATextInput searches for [contenteditable=true] and it finds it bc of slate */
+             combo: "mod+c",
+             group: "Table",
+             label: "Copy selected table cells",

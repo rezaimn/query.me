@@ -1,0 +1,33 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.database-details-schemas {
+  background-color: #fff;
+  border-top: solid 1px $light-gray1;
+
+  &__tags {
+    &__list {
+      margin: 20px;
+      display: flex;
+
+      & > * {
+        margin-right: 10px;
+        /* color: $dark-gray1;
+        background-color: $light-gray4; */
+      }
+    }
+  }
+
+  &__props {
+    margin: 20px;
+  }
+}
+
+.infinite-scroll-base-database-detail-info {
+  height: calc(100vh - 488px);
+  overflow: auto;
+}
+
+.infinite-scroll-base-database-detail {
+  height: calc(100vh - 403px);
+  overflow: auto;
+}

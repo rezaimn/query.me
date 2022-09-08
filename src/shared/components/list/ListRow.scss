@@ -1,0 +1,38 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.list-row {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: solid 1px $light-gray1;
+  padding-left: 57px;
+  padding-right: 32px;
+
+  &.small-paddings {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &.with-toggle {
+    padding-left: 10px;
+  }
+
+  &:hover {
+    background-color: $light-gray5;
+  }
+
+  &__toggle {
+    display: flex;
+    align-items: center;
+    width: 47px;
+
+    .bp3-control {
+      margin-bottom: 0;
+      outline: none;
+    }
+
+    .bp3-control-indicator {
+      outline: none !important;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.link-input{
+  box-shadow: none;
+  border-right: 1px solid #ccc;
+  min-width: 280px;
+  &:focus{
+    box-shadow:none;
+  }
+}
+
+.link-address{
+
+  min-width: 240px;
+  font-size: 18px;
+  .link-text{
+    position: absolute;
+    top: 7px;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+}
+
+.link-icon{
+  margin: 10px;
+  padding-top: 1px;
+}

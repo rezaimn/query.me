@@ -1,0 +1,15 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.list-header {
+  &__item {
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $gray1;
+
+    &.sortable {
+      cursor: pointer;
+    }
+  }
+}

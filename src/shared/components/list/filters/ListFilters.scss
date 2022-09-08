@@ -1,0 +1,31 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.list {
+  &__tags {
+    height: 59px;
+    border-top: solid 1px $light-gray1;
+    border-bottom: solid 1px $light-gray1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-gray5;
+    padding: 0 14px;
+
+    &__list {
+      display: flex;
+      cursor: pointer;
+      & > * {
+        margin-right: 10px;
+      }
+    }
+
+    &__toolbar {
+      display: flex;
+      align-items: center;
+
+      &__trigger {
+        cursor: pointer;
+      }
+    }
+  }
+}

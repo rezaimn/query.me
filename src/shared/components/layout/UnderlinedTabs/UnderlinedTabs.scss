@@ -1,0 +1,22 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.underlined-tabs {
+  width: 100%;
+
+  &__headers {
+    display: flex;
+    align-items: center;
+    border-top: solid 1px $light-gray1;
+    border-bottom: solid 1px $light-gray1;
+    height: 42px;
+
+    &.no-top-border {
+      border-top: unset;
+    }
+  }
+
+  &__active-tab {
+    min-height: 100px;
+    color: $blue1;
+  }
+}

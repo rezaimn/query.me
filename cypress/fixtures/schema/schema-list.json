@@ -1,0 +1,28 @@
+{
+  "count": 2,
+  "result": [
+    {
+      "created_at": "2021-03-19T11:57:28Z",
+      "database": "DB",
+      "database_type": "postgresql",
+      "database_uid": "db",
+      "id": "db.Schema",
+      "name": "Schema",
+      "timestamp": 2726199583,
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    },
+    {
+      "created_at": "2021-03-19T11:57:28Z",
+      "database": "DB1",
+      "database_type": "postgresql",
+      "database_uid": "db1",
+      "id": "db1.Schema1",
+      "name": "Schema1",
+      "timestamp": 2726257276,
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    }
+  ],
+  "total": 2
+}

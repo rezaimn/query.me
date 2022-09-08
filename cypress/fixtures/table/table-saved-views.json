@@ -1,0 +1,43 @@
+{
+  "count": 4,
+  "description_columns": {},
+  "ids": [
+    "Rv7onjgoz2",
+    "1M79MBAo8j",
+    "7YV94JKQlv",
+    "jv5odWk9P4"
+  ],
+  "label_columns": {
+    "icon": "Icon",
+    "id": "Id",
+    "name": "Name",
+    "params": "Params",
+    "url": "Url",
+    "view_type": "View Type",
+    "visible": "Visible"
+  },
+  "list_columns": [
+    "id",
+    "name",
+    "icon",
+    "view_type",
+    "url",
+    "params",
+    "visible"
+  ],
+  "list_title": "Saved Views",
+  "order_columns": [
+    "id"
+  ],
+  "result": [
+    {
+      "icon": "bookmark",
+      "id": 1,
+      "name": "test_view",
+      "params": "{\"filters\":[{\"col\":\"database\",\"opr\":\"eq\",\"value\":\"Exasol\"}]}",
+      "url": "https://staging.query.me/d/t",
+      "view_type": "Table",
+      "visible": null
+    }
+  ]
+}

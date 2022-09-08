@@ -1,0 +1,46 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.share-database-dialog-container {
+  background: $white;
+}
+
+.share-database-dialog {
+  &__with-workspace {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    > label {
+      margin: 0;
+      line-height: 30px;
+    }
+  }
+
+  &__with-user {
+    &__label {
+      margin-bottom: 5px;
+    }
+
+    &__share-list {
+      margin-top: 10px;
+      overflow: hidden;
+
+      &__item {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .user-details {
+          display: flex;
+
+          .user-name {
+            display: flex;
+            height: 100%;
+            line-height: 34px; // because of the avatar height
+            padding: 0 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+}

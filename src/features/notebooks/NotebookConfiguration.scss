@@ -1,0 +1,18 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.notebook-configuration {
+  &__editor {
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    &.has-error {
+      border-color: $red3; // Intent.DANGER
+    }
+  }
+}
+
+.info-sign-class-name {
+  font-family: 'JetBrainsMono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}

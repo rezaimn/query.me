@@ -1,0 +1,91 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.header {
+  height: 59px;
+  display: flex;
+  border-bottom: solid 1px $light-gray1;
+  width: 100%;
+  background-color: #fff;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 59px;
+    object-fit: contain;
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1);
+    background-color: $dark-gray5;
+    cursor: pointer;
+
+    &__image {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__avatar {
+    text-decoration: none !important;
+  }
+
+  &__icon {
+    color: #fff !important;
+
+    &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 59px;
+      cursor: pointer;
+
+      &.no-user {
+        cursor: default;
+      }
+
+      &.query {
+        background-color: $blue5;
+      }
+
+      &.notebook {
+        background-color: $indigo3;
+      }
+    }
+  }
+
+  &__navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    &.no-margin {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &__main, &__secondary {
+      display: flex;
+      align-items: center;
+    }
+
+    &__label {
+      font-size: 28px;
+      color: $gray1;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    &__main .bp3-icon {
+      margin-right: 10px;
+    }
+
+    &__indicator {
+      margin-left: 20px;
+      color: $gray1;
+      font-size: 14px;
+    }
+  }
+}

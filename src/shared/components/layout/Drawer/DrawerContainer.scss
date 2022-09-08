@@ -1,0 +1,9 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.drawer-container {
+  // height: calc(100vh - 59px);
+  // top: 59px !important;
+  border-left: solid 1px $light-gray1 !important;
+  box-shadow: none !important;
+  top: 59px !important;
+}

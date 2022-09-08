@@ -1,0 +1,88 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.share-notebook {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.load-sharing-settings {
+  margin-left: 10px;
+}
+
+.share-notebook__popover {
+  padding: 10px 0;
+  width: 400px;
+
+  &__title,
+  &__content {
+    padding: 0 10px;
+  }
+
+  &__note {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  &__everyone {
+    line-height: 31px;
+    margin: 0 15px 0 0;
+  }
+
+  &__select-action {
+    cursor: default !important;
+    line-height: 31px;
+  }
+
+  .with-user {
+    &__label {
+      margin-bottom: 15px;
+    }
+
+    &__share-list {
+      margin-top: 10px;
+      overflow: hidden;
+
+      &__item {
+        &.disabled {
+          color: $gray3;
+
+          .bp3-button.bp3-disabled {
+            cursor: default !important;
+          }
+        }
+
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .user-details {
+          display: flex;
+
+          .user-name {
+          display: flex;
+          height: 100%;
+          line-height: 34px; // because of the avatar height
+          padding: 0 0 0 10px;
+        }
+        }
+      }
+    }
+  }
+
+  .bp3-divider {
+    margin: 5px 0;
+  }
+
+  .bp3-input-group {
+    &.copy-link {
+    .bp3-input {
+      background: #FFF;
+      color: $dark-gray1;
+      cursor: text;
+      border: 1px solid $light-gray1;
+    }
+    }
+  }
+}

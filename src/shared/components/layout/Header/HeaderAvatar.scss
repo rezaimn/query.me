@@ -1,0 +1,22 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.header-avatar {
+  margin-left: 20px;
+  text-decoration: none !important;
+  cursor: pointer;
+  &__user-profile {
+    text-decoration: none !important;
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+.header-avatar__organization-name {
+  margin-bottom: 5px;
+  &.bp3-menu-item.bp3-disabled {
+    cursor: default !important;
+  }
+}

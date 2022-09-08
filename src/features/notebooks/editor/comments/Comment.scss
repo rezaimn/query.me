@@ -1,0 +1,71 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-family: BlenderPro;
+
+  .more-icon {
+    opacity: 0;
+  }
+
+  &:hover .more-icon {
+    opacity: 1;
+  }
+
+  .avatar {
+    margin-right: 11px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #182026;
+    font-size: 16px;
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 30px;
+      justify-content: space-between;
+
+      .header-group {
+        display: flex;
+        flex-direction: row;
+      }
+
+      &__time-ago {
+        font-size: 14px;
+        color: $gray1;
+        margin-left: 4px;
+      }
+    }
+
+    &__text {
+      margin-top: 9px;
+      // this allows \n characters to have an effect, rather than being ignored
+      white-space: pre-line;
+      display: flex;
+
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  &__edit-comment-buttons {
+    display:flex;
+    justify-content: flex-end;
+
+    button {
+      height: 38px;
+      width: 38px;
+    }
+  }
+}
+
+

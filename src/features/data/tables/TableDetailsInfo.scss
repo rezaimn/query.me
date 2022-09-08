@@ -1,0 +1,48 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.table-details {
+  background-color: #fff;
+  border-top: solid 1px $light-gray1;
+  overflow-y: auto;
+
+  &.no-border {
+    border-top: none;
+  }
+
+  &__tags {
+    &__list {
+      margin: 20px;
+      display: flex;
+
+      & > * {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__props {
+    display: flex;
+    margin: 0 20px;
+    &__left {
+      margin-right: 30px;
+      width: 80%;
+    }
+    &__right{
+      margin-right: 30px;
+      width: 20%;
+    }
+
+    .full-width {
+      width: 100%;
+    }
+
+    &.vertical-props {
+      flex-direction: column;
+
+      &.table-details__props__left,
+      &.table-details__props__right {
+        margin-right: unset;
+      }
+    }
+  }
+}

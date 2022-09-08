@@ -1,0 +1,10 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.schema-list {
+  .list-column:last-child {
+    justify-content: flex-end;
+  }
+  .list-row{
+    cursor: pointer;
+  }
+}

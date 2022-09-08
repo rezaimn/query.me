@@ -1,0 +1,82 @@
+{
+  "count": 14,
+  "description_columns": {},
+  "ids": [
+    "6rwYv1AN0l",
+    "JWENE8ZKdy",
+    "7QMqmBKlAk",
+    "1QmqBmoY9a",
+    "EVPKkLzNGb",
+    "P4ZqbxNnWl",
+    "4BPYGlbqzm",
+    "4zkKJjdK5w",
+    "pAOq8WLYGz",
+    "kVANZZVNLl",
+    "RxmYWJoN1z",
+    "rPAKgjDq9m",
+    "r94Yr4KDyx",
+    "XZxq0eKarB"
+  ],
+  "label_columns": {
+    "avatar": "Avatar",
+    "created_on": "Created On",
+    "created_on_utc": "Created On Utc",
+    "email": "Email",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "roles": "Roles",
+    "uid": "Uid",
+    "username": "Username"
+  },
+  "list_columns": [
+    "uid",
+    "first_name",
+    "last_name",
+    "username",
+    "email",
+    "created_on",
+    "avatar",
+    "roles",
+    "created_on_utc"
+  ],
+  "list_title": "List Pushmetrics User",
+  "order_columns": [
+    "id"
+  ],
+  "result": [
+    {
+      "avatar": "https://s.gravatar.com/avatar/98eb4aabac87aea9b0201f012108d212?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fjg.png",
+      "created_on": "2021-04-07T12:56:10.184415",
+      "created_on_utc": "2021-04-07T12:56:10Z",
+      "email": "test@gmail.com",
+      "first_name": "test",
+      "last_name": "test",
+      "roles": [
+        {
+          "id": 95,
+          "name": "Admin",
+          "uid": "4OVRrDJLgk"
+        }
+      ],
+      "uid": "6rwYv1AN0l",
+      "username": "test"
+    },
+    {
+      "avatar": null,
+      "created_on": "2021-04-28T15:27:43.567393",
+      "created_on_utc": "2021-04-28T15:27:43Z",
+      "email": "test1@gmail.com",
+      "first_name": "test1",
+      "last_name": "test1",
+      "roles": [
+        {
+          "id": 95,
+          "name": "Admin",
+          "uid": "4OVRrDJLgk"
+        }
+      ],
+      "uid": "JWENE8ZKdy",
+      "username": "test1"
+    }
+  ]
+}

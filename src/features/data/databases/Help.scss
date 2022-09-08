@@ -1,0 +1,8 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.database-add-edit {
+  &__invite {
+    color: $blue3;
+    cursor: pointer;
+  }
+}

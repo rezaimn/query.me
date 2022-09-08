@@ -1,0 +1,16 @@
+.cover-image-button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  button {
+    opacity: 0;
+    background-color: #eee!important;
+    &:hover,
+    &:active,
+    &:focus {
+      opacity: 1;
+      background-color: #e5e5e5!important;
+    }
+  }
+}

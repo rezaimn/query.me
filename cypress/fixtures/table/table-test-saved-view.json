@@ -1,0 +1,32 @@
+{
+  "description_columns": {},
+  "id": "1",
+  "label_columns": {
+    "icon": "Icon",
+    "id": "Id",
+    "name": "Name",
+    "params": "Params",
+    "url": "Url",
+    "view_type": "View Type",
+    "visible": "Visible"
+  },
+  "result": {
+    "icon": "bookmark",
+    "id": 1,
+    "name": "define",
+    "params": "{\"filters\":[]}",
+    "url": "https://staging.query.me/d/s",
+    "view_type": "Schema",
+    "visible": null
+  },
+  "show_columns": [
+    "id",
+    "name",
+    "icon",
+    "view_type",
+    "url",
+    "params",
+    "visible"
+  ],
+  "show_title": "Show Saved View"
+}

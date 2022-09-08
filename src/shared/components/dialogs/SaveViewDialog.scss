@@ -1,0 +1,32 @@
+.view {
+  display: flex;
+  flex-direction: column;
+
+  &__choice {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 10px 0;
+
+    .bp3-radio {
+      margin-bottom: 0;
+
+      .bp3-control-indicator {
+        outline: none !important;
+      }
+    }
+
+    .bp3-input {
+      flex-grow: 1;
+      margin-left: 20px;
+      width: unset;
+    }
+
+  }
+}
+
+.bp3-dialog-footer-actions {
+  .bp3-button {
+    width: 60px;
+  }
+}

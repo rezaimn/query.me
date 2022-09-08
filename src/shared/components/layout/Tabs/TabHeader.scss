@@ -1,0 +1,55 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.tab-header {
+  margin: 0 1px;
+  // padding: 3px 2px 2px 3px;
+  padding: 2px 3px;
+  background-color: $light-gray2;
+  border: solid 1px $light-gray2;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+
+  &__icon {
+    margin-right: 3px;
+  }
+
+  &.active {
+    border-color: $blue4;
+    color: $blue4;
+    background-color: #fff;
+
+    &:hover {
+      border-color: $blue4;
+    }
+  }
+
+  &.failed {
+    border-color: $red3;
+    color: $red3;
+
+    &:hover {
+      border-color: $red3 !important;
+    }
+  }
+
+  &.running {
+    border-color: $green4;
+    color: $green4;
+
+    &:hover {
+      border-color: $green4 !important;
+    }
+  }
+
+  &:hover {
+    font-weight: 500;
+    border-color: $gray1;
+  }
+}

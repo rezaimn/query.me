@@ -1,0 +1,39 @@
+.comment-modal {
+  padding: 6px;
+  width: 475px;
+
+  .underlined-tabs__active-tab {
+    max-height: 446px;
+    overflow-y: auto;
+  }
+  .comment__send-btn {
+    width: 59px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 12px;
+  }
+
+  .comment-thread {
+    &__list__btn-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-top: 10px;
+
+      .bp3-icon-tick {
+        margin-right: 4px;
+      }
+    }
+
+    &__divider {
+      margin-top: 10px;
+    }
+
+    &__list__new-comment-thread-container {
+      margin-top: 10px;
+      .comment-input {
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.help-section-content {
+  font-family: BlenderPro;
+  font-size: 14px;
+  font-weight: normal;
+  color: $dark-gray5;
+
+  ul {
+    list-style-type: none;
+    padding-inline-start: 5px;
+
+    &.no-margin-top {
+      margin-block-start: 0;
+    }
+  }
+
+  ul > li {
+    text-indent: -5px;
+  }
+
+  ul > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+  a {
+    color: $blue3;
+    text-decoration: none;
+  }
+}

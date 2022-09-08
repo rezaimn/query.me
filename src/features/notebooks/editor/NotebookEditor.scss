@@ -1,0 +1,69 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.notebook {
+  &__tabs {
+    margin-top: 20px;
+  }
+
+  &__data {
+    margin-top: 10px;
+
+    &__databases {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__elements {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+
+      .bp3-tree {
+        width: calc(100% - 24px);
+      }
+    }
+  }
+
+  &__pages {
+    &__toolbar {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 10px;
+      color: $gray1;
+    }
+
+    .bp3-tree-node-label {
+      color: $gray1;
+    }
+  }
+
+  // overwrite slate specific styling
+  .slate-h1 {
+    font-size: 34px;
+  }
+  .slate-h2 {
+    font-size: 27px;
+  }
+  .slate-p, .slate-li {
+    font-size: 18px;
+  }
+  .slate-code-block,
+  .slate-code {
+    font-family: 'JetBrainsMono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 14px;
+  }
+  .slate-code {
+    font-size: 80%;
+  }
+  .slate-blockquote {
+    font-size: 20px;
+  }
+
+  .slate-saveSelected {
+    background-color: #8ec4fd;
+  }
+}
+
+.toolbar-divider {
+  height: 20px;
+}

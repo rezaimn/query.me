@@ -1,0 +1,9 @@
+.header-new-button {
+  display: flex;
+  align-items: center;
+
+  &__execute-requests {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+}

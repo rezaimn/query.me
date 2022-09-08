@@ -1,0 +1,36 @@
+{
+  "count": 2,
+  "result": [
+    {
+      "created_at": "2021-03-19T11:57:40Z",
+      "data_type": "NUMBER",
+      "database": "Staging_PG",
+      "database_uid": "Vp1aOAgPzA",
+      "id": "Vp1aOAgPzA.information_schema.sql_sizing_profiles.sizing_id",
+      "name": "sizing_id",
+      "path": "information_schema.sql_sizing_profiles.sizing_id",
+      "schema": "information_schema",
+      "table": "sql_sizing_profiles",
+      "timestamp": 2727280724,
+      "type": "INTEGER",
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    },
+    {
+      "created_at": "2021-03-19T11:57:40Z",
+      "data_type": "STRING",
+      "database": "Staging_PG",
+      "database_uid": "Vp1aOAgPzA",
+      "id": "Vp1aOAgPzA.information_schema.sql_sizing_profiles.sizing_name",
+      "name": "sizing_name",
+      "path": "information_schema.sql_sizing_profiles.sizing_name",
+      "schema": "information_schema",
+      "table": "sql_sizing_profiles",
+      "timestamp": 2727285653,
+      "type": "VARCHAR",
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    }
+  ],
+  "total": 2
+}

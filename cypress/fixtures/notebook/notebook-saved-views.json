@@ -1,0 +1,41 @@
+{
+  "count": 2,
+  "description_columns": {},
+  "ids": [
+    "OrmxLvpoVd",
+    "1drx1W7oLp"
+  ],
+  "label_columns": {
+    "icon": "Icon",
+    "id": "Id",
+    "name": "Name",
+    "params": "Params",
+    "url": "Url",
+    "view_type": "View Type",
+    "visible": "Visible"
+  },
+  "list_columns": [
+    "id",
+    "name",
+    "icon",
+    "view_type",
+    "url",
+    "params",
+    "visible"
+  ],
+  "list_title": "Saved Views",
+  "order_columns": [
+    "id"
+  ],
+  "result": [
+    {
+      "icon": "bookmark",
+      "id": 1,
+      "name": "test_view",
+      "params": "{\"filters\":[{\"col\":\"name\",\"opr\":\"sw\",\"value\":\"a\"},{\"col\":\"name\",\"opr\":\"ew\",\"value\":\"a\"}]}",
+      "url": "https://staging.query.me/n",
+      "view_type": "Notebook",
+      "visible": null
+    }
+  ]
+}

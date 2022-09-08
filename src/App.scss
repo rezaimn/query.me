@@ -1,0 +1,48 @@
+.infinite-scroll-base {
+  height: calc(100vh - 220px);
+  overflow: auto;
+}
+
+#users-infinite-scroll,
+#notebooks-infinite-scroll,
+#databases-infinite-scroll,
+#schemas-infinite-scroll,
+#tables-infinite-scroll {
+  .infinite-scroll-component{
+    min-height: calc(100vh - 220px)!important;
+  }
+}
+.load-more-spinner{
+  margin: 30px auto;
+}
+
+.p-0{
+  padding: 0!important;
+}
+
+.bp3-popover{
+  background: #fff;
+}
+
+.bp3-transition-container{
+  z-index: 999;
+  position: fixed!important;
+}
+
+.bp3-overlay{
+  z-index: 1000;
+}
+
+.editable-block-title{
+  height: 21px;
+  line-height: 21px;
+  min-width: 80px;
+  font-size: 14px;
+}
+
+.database-select-menu, .page-toolbar-menu{
+  z-index: 999!important;
+  .bp3-transition-container{
+    z-index: 999!important;
+  }
+}

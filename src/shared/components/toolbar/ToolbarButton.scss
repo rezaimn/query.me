@@ -1,0 +1,15 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.toolbar-button {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0;
+  margin-left: 20px;
+  cursor: pointer;
+
+  &__label {
+    margin-left: 10px;
+    color: $blue3;
+  }
+}

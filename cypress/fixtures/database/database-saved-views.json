@@ -1,0 +1,40 @@
+{
+  "count": 1,
+  "description_columns": {},
+  "ids": [
+    "Ew4oKPaQz7"
+  ],
+  "label_columns": {
+    "icon": "Icon",
+    "id": "Id",
+    "name": "Name",
+    "params": "Params",
+    "url": "Url",
+    "view_type": "View Type",
+    "visible": "Visible"
+  },
+  "list_columns": [
+    "id",
+    "name",
+    "icon",
+    "view_type",
+    "url",
+    "params",
+    "visible"
+  ],
+  "list_title": "Saved Views",
+  "order_columns": [
+    "id"
+  ],
+  "result": [
+    {
+      "icon": "bookmark",
+      "id": 1,
+      "name": "test_view",
+      "params": "{\"filters\":[{\"col\":\"database_name\",\"opr\":\"sw\",\"value\":\"E\"}]}",
+      "url": "https://staging.query.me/d/d",
+      "view_type": "Database",
+      "visible": null
+    }
+  ]
+}

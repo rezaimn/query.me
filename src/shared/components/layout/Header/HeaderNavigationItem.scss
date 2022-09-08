@@ -1,0 +1,31 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.navigation-item {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+  font-weight: bold;
+  color: $gray1 !important;
+  text-transform: uppercase;
+
+  &__link {
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.active {
+      .bp3-button-text {
+        color: $black;
+      }
+  
+      .bp3-icon svg {
+        fill: $black;
+      }
+    }
+  }
+
+  &.small {
+    margin: 0;
+  }
+
+}

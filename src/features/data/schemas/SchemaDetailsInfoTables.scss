@@ -1,0 +1,18 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.schema-details-tables {
+  &__table-name {
+    cursor: pointer;
+  }
+}
+
+
+.infinite-scroll-base-schema-detail-info {
+  height: calc(100vh - 334px);
+  overflow: auto;
+}
+
+.infinite-scroll-base-schema-detail {
+  height: calc(100vh - 328px);
+  overflow: auto;
+}

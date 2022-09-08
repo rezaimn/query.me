@@ -1,0 +1,44 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.plotly {
+  // margin-top: 20px;
+  margin-bottom: 20px;
+
+  .plot-container {
+    .svg-container {
+      width: unset !important;
+    }
+  }
+
+  .void-element {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  &__toolbar {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+
+    &__title {
+      &__icon {
+        color: $gray5;
+        margin-right: 10px;
+      }
+      height: 21px;
+      line-height: 21px;
+      min-width: 80px;
+      font-size: 14px;
+    }
+
+    &__actions {
+      .bp3-icon {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.tabs {
+  width: 100%;
+
+  &__headers {
+    display: flex;
+    align-items: flex-end;
+
+    &__container {
+      height: 25px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: solid 1px $light-gray1;
+      overflow: hidden;
+
+      &.hidden {
+        visibility: hidden;
+      }
+
+      &.header-below {
+        height: unset;
+        background-color: $light-gray5;
+        border-left: solid 1px $light-gray1;
+        border-right: solid 1px $light-gray1;
+      }
+    }
+    
+    &__more {
+      margin: 0 4px;
+    }
+
+    &__toolbar {
+      margin-right: 8px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      &__item {
+        margin-left: 3px;
+        transform: rotate(-90deg);
+
+        &--fill svg {
+          fill: $gray3;
+        }
+      }
+
+      &__message {
+        font-size: 14px;
+        color: $dark-gray5;
+      }
+    }
+  }
+
+  &__active-tab {
+    min-height: 100px;
+    background-color: #fff;
+  }
+}

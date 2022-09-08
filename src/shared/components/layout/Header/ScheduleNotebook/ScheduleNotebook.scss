@@ -1,0 +1,202 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.schedule-notebook {
+  display: flex;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+
+.schedule-notebook-popover {
+  width: 440px;
+
+  &__list {
+    padding: 10px 0;
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+      padding: 0 10px;
+      height: 50px;
+      border-bottom: solid 1px $light-gray1;
+
+      .list-header-title,
+      .list-header-button {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    &__content {
+      .bp3-spinner {
+        margin-top: 10px;
+      }
+
+      .list-item {
+        padding: 20px;
+
+        &__title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > div {
+            display: flex;
+
+            .bp3-button-group {
+              align-items: center;
+            }
+          }
+
+          &__description {
+            margin: 0 10px;
+            font-weight: 600;
+          }
+        }
+
+        &__info-line {
+          display: flex;
+          margin-top: 5px;
+          font-size: 12px;
+
+          .label {
+            display: flex;
+            width: 65px;
+          }
+        }
+
+        &:not(:last-child) {
+          border-bottom: solid 1px $light-gray1;
+        }
+      }
+    }
+  }
+
+  &__form {
+    &__header {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      padding: 0 10px;
+      height: 40px;
+      border-bottom: solid 1px $light-gray1;
+
+      > .bp3-heading {
+        margin: 0;
+      }
+    }
+
+    .help-text-utc {
+      margin-left: 5px;
+    }
+
+    &__select-action,
+    &__select-recipients,
+    &__scheduler, {
+      padding: 10px 10px;
+      border-bottom: solid 1px $light-gray1;
+    }
+
+    &__select-action {
+      padding: 10px 10px;
+
+      .select-action-label {
+        margin-bottom: 5px;
+      }
+
+      .select-action {
+        .bp3-popover-target {
+          width: 100%;
+        }
+
+        &__callout {
+          &__title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            > div {
+              display: flex;
+            }
+
+            .title-description {
+              margin: 0 10px;
+              font-weight: 600;
+            }
+          }
+
+          &__content {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    &__select-recipients {
+      padding: 10px 10px;
+
+      .select-recipients-label {
+        margin-bottom: 5px;
+      }
+    }
+
+    &__scheduler {
+      .scheduler-label {
+        margin-bottom: 5px;
+      }
+
+      .scheduler-form {
+        .bp3-label {
+          min-width: 75px;
+        }
+
+        .yearly-schedule,
+        .monthly-schedule {
+          .bp3-radio {
+            display: inline-block;
+            min-width: 85px;
+          }
+        }
+
+        .weekdays {
+          padding-left: 85px;
+        }
+
+        &__repeat_end-date {
+          flex-direction: column;
+        }
+
+        .end-date-options {
+          padding-left: 85px;
+        }
+
+        .info-text {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 0 0 15px;
+          flex-grow: 2;
+        }
+
+        .preview-scheduled-runs {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    &__footer {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      justify-content: flex-end;
+      height: 60px;
+      padding: 0 10px;
+
+      .cancel {
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+}

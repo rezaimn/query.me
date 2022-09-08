@@ -1,0 +1,24 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.label-with-legend {
+  //display: flex;
+  //flex-direction: column;
+
+  &__label {
+    font-size: 22px;
+    font-weight: 500;
+    color: $dark-gray1;
+    line-height: 21px;
+
+    &:hover {
+      color: $dark-gray1;
+      text-decoration: none;
+    }
+  }
+
+  &__legend {
+    font-size: 12px;
+    font-weight: 500;
+    color: $dark-gray1;
+  }
+}

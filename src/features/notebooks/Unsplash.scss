@@ -1,0 +1,47 @@
+.unsplash-container {
+  border-top: 1px solid #aaa;
+}
+
+.unsplash_search {
+  margin: 10px;
+
+  .bp3-icon {
+    margin: 12px !important;
+  }
+}
+
+.unspalsh-image-list-container {
+  width: 720px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 35vh;
+  overflow-y: auto;
+}
+
+.unspalsh-image-list-item {
+  width: 20%;
+  margin: 1.25%;
+  height: 120px;
+  background: white;
+  flex: 1 1 22.5%;
+
+  img {
+    height: 100px;
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+}
+
+.unsplash-footer {
+  border-top: 1px solid #aaa;
+  padding-top: 14px;
+}
+
+.profile_url {
+  color: #aaa;
+  text-decoration: underline;
+}

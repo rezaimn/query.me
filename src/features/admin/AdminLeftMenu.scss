@@ -1,0 +1,44 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.admin-left-menu {
+  display: flex;
+  flex-direction: column;
+  
+  /* &__action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+
+    &__button {
+      width: 153px;
+      height: 40px;
+      border-radius: 3px;
+    }
+  } */
+
+
+  &__header {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: $gray1;
+
+    .bp3-icon {
+      margin-right: 5px;
+    }
+  }
+
+  &__domains {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 0;
+    // border-top: solid 1px $light-gray1;
+    padding: 0;
+  }
+}

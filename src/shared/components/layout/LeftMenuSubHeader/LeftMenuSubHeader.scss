@@ -1,0 +1,11 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.left-menu-sub-header {
+  padding: 0 20px;
+
+  &__label {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gray1;
+  }
+}

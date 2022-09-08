@@ -1,0 +1,71 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.editable-tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  /* level added by click outside component */
+  > div {
+    width: 100%;
+  }
+
+  .bp3-label {
+    color: $gray1;
+  }
+
+  .bp3-tag {
+    margin-right: 5px;
+    background-color: #daeffc;
+    color: $blue1;
+  }
+
+  .bp3-tag.not-filled {
+    background-color: $light-gray3;
+    color: $gray1;
+  }
+
+  &__multi-select {
+    width: 100%;
+
+    .bp3-popover-target {
+      width: 100%;
+    }
+
+    .bp3-tag-input.bp3-active {
+      box-shadow: 0 0 0 0 rgba(19, 124, 189, 0),
+        0 0 0 0 rgba(19, 124, 189, 0),
+        inset 0 0 0 1px rgba(16, 22, 26, 0.15),
+        inset 0 1px 1px rgba(16, 22, 26, 0.2) !important;
+    }
+  }
+}
+
+.edit-tag {
+  padding: 15px;
+
+  &__action {
+    width: 100%;
+  }
+
+  .bp3-popover-target {
+    width: 100%;
+  }
+
+  .bp3-form-group.bp3-inline {
+    justify-content: space-between;
+  }
+
+  .bp3-form-content .bp3-button {
+    width: 100%;
+
+    .bp3-button-text {
+      flex: 1;
+    }
+  }
+
+  .bp3-form-content {
+    width: 100%;
+  }
+}
+

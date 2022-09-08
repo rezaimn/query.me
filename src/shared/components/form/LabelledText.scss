@@ -1,0 +1,39 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.labelled-text {
+  display: flex;
+  margin: 10px;
+  margin-left: 0;
+
+  &.align-center {
+    align-items: center;
+
+    .labelled-text__label {
+      margin-top: 0 !important;
+    }
+  }
+
+  &__label {
+    width: 108px;
+    margin-bottom: 0 !important;
+    margin-top: 7px !important;
+    font-size: 12px;
+    color: $gray1;
+    display: flex !important;
+    align-items: center;
+
+    &.uppercase {
+      text-transform: uppercase;
+    }
+
+    &.multilines {
+      align-items: flex-start;
+    }
+  }
+
+  &__content {
+    width: calc(100% - 108px);
+    margin-top: 7px !important;
+    display: flex;
+  }
+}

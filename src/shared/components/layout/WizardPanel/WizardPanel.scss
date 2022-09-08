@@ -1,0 +1,98 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.wizard {
+  height: calc(100vh - 59px); // -59px because of the header
+  overflow-y: auto;
+  background-color: #f5f8fa;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    background-color: $light-gray5;
+    margin: 20px 0;
+  }
+
+  &__content {
+    width: 600px;
+    // box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1);
+    // background-color: #fff;
+    background-color: #fff;
+
+    &__title {
+      height: 45px;
+      display: flex;
+      align-items: center;
+      border-bottom: solid 1px $light-gray1;
+  
+      & > div {
+        padding-left: 17px;
+        font-family: BlenderPro;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-gray5;
+        display: flex;
+        align-items: center;
+  
+        .bp3-icon {
+          margin-right: 11px;
+  
+          svg {
+            fill: $gray2;
+          }
+        }
+      }
+    }
+
+    &__details {
+      overflow-y: auto;
+      //height: calc(85vh - 103px);
+      padding-top: 15px;
+      padding-left: 38px;
+      padding-right: 92px;
+
+      .database-connection__toolbar {
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__help {
+    width: 300px;
+    background-color: $light-gray4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__title {
+      height: 45px;
+      display: flex;
+      align-items: center;
+      padding-left: 17px;
+      font-family: BlenderPro;
+      font-size: 20px;
+      font-weight: 500;
+      color: $dark-gray1;
+      display: flex;
+      align-items: center;
+
+      .bp3-icon {
+        margin-right: 11px;
+
+        svg {
+          fill: $gray2;
+        }
+      }
+    }
+
+    &__content {
+      margin: 20px 48px;
+      margin-top: 0;
+    }
+  }
+
+}

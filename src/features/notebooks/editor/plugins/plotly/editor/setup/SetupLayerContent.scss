@@ -1,0 +1,25 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.layer-content {
+  padding: 10px;
+
+  .bp3-form-group.bp3-inline {
+    justify-content: space-between;
+  }
+
+  .bp3-form-content .bp3-button {
+    width: 150px;
+
+    .bp3-button-text {
+      flex: 1;
+    }
+  }
+
+  .bp3-form-content {
+    width: 150px;
+  }
+
+  .bp3-label {
+    color: $gray1;
+  }
+}

@@ -1,0 +1,100 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.database-connection {
+  height: 100%;
+
+  &__select-database {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100% - 20px);
+    overflow-y: auto;
+
+    &__title {
+      font-size: 16px;
+      color: $dark-gray1;
+      margin-bottom: 30px;
+    }
+
+    &__popular {
+      flex-grow: 1;
+
+      &__label {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $gray1;
+        padding-left: 10px;
+        border-bottom: solid 1px $light-gray1;
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__label {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $gray1;
+        margin-left: 10px;
+        margin-bottom: 5px;
+      }
+
+      .bp3-popover-target {
+        width: 100%;
+
+        & > div {
+          width: 100%;
+        }
+
+        .bp3-button {
+          width: 100%;
+          font-size: 18px;
+          font-weight: 500;
+          color: $gray1;
+          padding: 8px;
+          display: flex;
+          justify-content: space-between;
+          padding-left: 11px;
+        }
+      }
+
+      &__hint {
+        font-size: 12px;
+        color: $dark-gray5;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__toolbar {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__button {
+      height: 40px;
+      width: 93px;
+      margin-left: 20px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &--back {
+        margin-left: 20px;
+        border: none;
+        background-color: unset !important;
+        background-image: unset !important;
+        box-shadow: unset !important;
+      }
+    }
+  }
+}

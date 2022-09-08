@@ -1,0 +1,25 @@
+
+.edit-media-btn{
+  color: #5c7080;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.slate-MediaEmbedElement{
+  position: relative;
+  width: 100%;
+  z-index: 99;
+  padding-top: 20px;
+}
+
+.slate-MediaEmbedElement-iframeWrapper{
+  position: relative;
+}
+
+.slate-MediaEmbedElement-iframe{
+  position: relative;
+}

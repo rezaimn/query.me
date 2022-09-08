@@ -1,0 +1,8 @@
+.header-help {}
+
+.header-help__version {
+  // this is a popover element so .header-help is not its parent
+  &.bp3-menu-item.bp3-disabled {
+    cursor: default !important;
+  }
+}

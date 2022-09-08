@@ -1,0 +1,71 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.wizard-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 59px);
+  background-color: $light-gray5;
+
+  &__header {
+    height: 69px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px $light-gray1;
+    background: #fff;
+
+    &__titles {
+      display: flex;
+      justify-content: center;
+      padding-left: 26px;
+      flex-direction: column;
+      }
+
+    &__title {
+      font-size: 16px;
+      font-weight: bold;
+      color: $dark-gray1;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+      color: $dark-gray1;
+    }
+
+    &__toolbar {
+      padding-right: 17px;
+
+      &__button {
+        width: 63px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    height: calc(70vh - 59px);
+    width: 90%;
+    // box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1);
+    // background-color: #fff;
+    background-color: #fff;
+
+    &__steps {
+      overflow-y: auto;
+      height: calc(70vh - 59px);
+      width: 280px;
+      background-color: $light-gray2;
+    }
+
+    &__details {
+      overflow-y: auto;
+      height: calc(70vh - 59px);
+      width: calc(100% - 280px);
+      /* padding-top: 15px;
+      padding-left: 38px;
+      padding-right: 92px; */
+    }
+  }
+}

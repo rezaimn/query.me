@@ -1,0 +1,22 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.organization {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-top: solid 1px $light-gray1;
+  padding: 40px 20px 82px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    .bp3-icon {
+      margin-right: 10px;
+    }
+  }
+
+  &__left, &__right {
+    width: 50%;
+  }
+}

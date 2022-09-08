@@ -1,0 +1,57 @@
+.parameter {
+  margin-bottom: 20px;
+
+  &__header {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #182026;
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+  }
+
+  &__select-type {
+    cursor: pointer;
+  }
+
+  .void-element {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    display: none;
+  }
+
+  .boolean-input {
+    &:focus {
+      outline: none;
+    }
+    input:focus {
+      ~ .bp3-control-indicator { /* next sibling */
+        outline: none;
+      }
+    }
+  }
+
+  .text-input {
+    width: 215px;
+  }
+
+  .bp3-disabled {
+    cursor: default;
+
+    .bp3-input:disabled {
+      cursor: default;
+    }
+  }
+}
+
+.parameter__select-type__header {
+  font-weight: bold;
+}
+
+.bp3-datepicker-navbar {
+  .DayPicker-NavButton {
+    position: static; /* fixed issue probably because of Popover2 */
+  }
+}

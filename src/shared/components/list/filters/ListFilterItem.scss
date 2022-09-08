@@ -1,0 +1,13 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.filter-item {
+  &__configured {
+    color: #0d8050;
+    background-color: rgba(15, 153, 96, 0.2);
+  }
+
+  &__not-configured {
+    color: #182026;
+    background-color: #e8ebee;
+  }
+}

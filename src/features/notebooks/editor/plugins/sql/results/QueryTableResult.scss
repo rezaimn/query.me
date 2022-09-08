@@ -1,0 +1,77 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.query-result {
+  &__data-pending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px $light-gray1;
+    border-left: solid 1px $light-gray1;
+    border-right: solid 1px $light-gray1;
+    height: 232px;
+  }
+
+  &__data {
+    border-top: solid 1px $light-gray1;
+    height: 232px;
+
+    &__header {
+      padding-left: 10px;
+    }
+
+    &__table {
+      box-shadow: none;
+      background-color: #fff;
+      border-left: solid 1px $light-gray3;
+      border-right: solid 1px $light-gray3;
+      border-bottom: solid 1px $light-gray3;
+      outline: none;
+
+      .bp3-table-header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+
+        .text {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          }
+
+        .bp3-icon {
+          color: $gray4;
+        }
+      }
+
+      .bp3-table-row-name {
+        text-align: left;
+      }
+
+      .bp3-table-quadrant-main {
+        // background-color: #fff;
+      }
+
+      .bp3-table-top-container {
+        // background-color: #fff;
+      }
+
+      .bp3-table-quadrant-stack,
+      .bp3-table-quadrant.bp3-table-quadrant-main,
+      .bp3-table-quadrant.bp3-table-quadrant-top {
+        background-color: #fff;
+      }
+
+      .bp3-table-column-name {
+        .bp3-table-th-menu-container {
+          z-index: 100;
+        }
+      }
+    }
+  }
+}
+
+.json-tree-container {
+  max-height: 80vh;
+  overflow: auto;
+}

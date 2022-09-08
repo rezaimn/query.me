@@ -1,0 +1,20 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.comment__content__text-input,
+.comment__content__text-input__editing
+{
+  width: 348px;
+
+  font-family: BlenderPro;
+  &:not(:focus) {
+  	box-shadow: none;
+  }
+  resize: none;
+
+}
+
+.comment__content__text-input__editing {
+  position:relative;
+  margin-right: 5px;
+  width: calc(100% - 50px);
+}

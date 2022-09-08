@@ -1,0 +1,23 @@
+.cover-image-url-form {
+  padding: 6px;
+  width: 720px;
+
+  .cover-image-url-input-group {
+    display: flex;
+
+    input {
+      width: 590px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.image-by {
+  color: #aaa;
+  margin: 20px 0 20px 5px;
+
+  &__profile {
+    color: #aaa;
+    text-decoration: underline;
+  }
+}

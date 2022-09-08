@@ -1,0 +1,7 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.grid {
+  display: grid !important;
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+}

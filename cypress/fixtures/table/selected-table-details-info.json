@@ -1,0 +1,15 @@
+{
+  "id": "db.Schema.Table",
+  "result": {
+    "created_at": "2021-03-19T11:57:40Z",
+    "database": "DB",
+    "database_uid": "db",
+    "name": "Table",
+    "path": "information_schema.sql_sizing_profiles",
+    "schema": "Schema",
+    "timestamp": 2727195722,
+    "type": "table",
+    "updated_at": "2021-04-01T14:27:24Z",
+    "workspace_id": 17
+  }
+}

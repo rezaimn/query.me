@@ -1,0 +1,32 @@
+{
+  "count": 15,
+  "result": [
+    {
+      "created_at": "2021-03-19T11:57:40Z",
+      "database": "DB",
+      "database_uid": "db",
+      "id": "db.Schema.Table",
+      "name": "Table",
+      "path": "information_schema.sql_sizing_profiles",
+      "schema": "Schema",
+      "timestamp": 2727195722,
+      "type": "table",
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    },
+    {
+      "created_at": "2021-03-19T11:57:29Z",
+      "database": "DB1",
+      "database_uid": "Vp1aOAgPzA",
+      "id": "db.Schema1.Table1",
+      "name": "Table1",
+      "path": "public.ab_permission",
+      "schema": "Schema1",
+      "timestamp": 2727248645,
+      "type": "table",
+      "updated_at": "2021-04-01T14:27:24Z",
+      "workspace_id": 17
+    }
+  ],
+  "total": 784
+}

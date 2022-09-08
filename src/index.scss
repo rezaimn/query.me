@@ -1,0 +1,257 @@
+@font-face {
+	font-family: BlenderPro;
+	/* src: url('/assets/fonts/HelveticaNeueLTStd-Th.otf'),
+			 url('/assets/fonts/HelveticaNeueLTStd-Th.eot'); */
+  src: url('./fonts/blender-pro-bold/blender-pro-bold.eot');
+  src: url('./fonts/blender-pro-bold/blender-pro-bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-bold/blender-pro-bold.woff') format('woff'),
+       url('./fonts/blender-pro-bold/blender-pro-bold.otf')  format('truetype'),
+       url('./fonts/blender-pro-bold/blender-pro-bold.svg#svgFontName') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: BlenderPro;
+	/* src: url('/assets/fonts/HelveticaNeueLTStd-Th.otf'),
+			 url('/assets/fonts/HelveticaNeueLTStd-Th.eot'); */
+  src: url('./fonts/blender-pro-bold-italic/blender-pro-bold-italic.eot');
+  src: url('./fonts/blender-pro-bold-italic/blender-pro-bold-italic.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-bold-italic/blender-pro-bold-italic.woff') format('woff'),
+       url('./fonts/blender-pro-bold-italic/blender-pro-bold-italic.otf')  format('truetype'),
+       url('./fonts/blender-pro-bold-italic/blender-pro-bold-italic.svg#svgFontName') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: BlenderPro;
+  src: url('./fonts/blender-pro-book/blender-pro-book.eot');
+  src: url('./fonts/blender-pro-book/blender-pro-book.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-book/blender-pro-book.woff') format('woff'),
+       url('./fonts/blender-pro-book/blender-pro-book.otf')  format('truetype'),
+       url('./fonts/blender-pro-book/blender-pro-book.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: BlenderPro;
+	/* src: url('/assets/fonts/HelveticaNeueLTStd-Th.otf'),
+			 url('/assets/fonts/HelveticaNeueLTStd-Th.eot'); */
+  src: url('./fonts/blender-pro-book-italic/blender-pro-book-italic.eot');
+  src: url('./fonts/blender-pro-book-italic/blender-pro-book-italic.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-book-italic/blender-pro-book-italic.woff') format('woff'),
+       url('./fonts/blender-pro-book-italic/blender-pro-book-italic.otf')  format('truetype'),
+       url('./fonts/blender-pro-book-italic/blender-pro-book-italic.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: BlenderPro;
+  src: url('./fonts/blender-pro-medium/blender-pro-medium.eot');
+  src: url('./fonts/blender-pro-medium/blender-pro-medium.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-medium/blender-pro-medium.woff') format('woff'),
+       url('./fonts/blender-pro-medium/blender-pro-medium.otf')  format('truetype'),
+       url('./fonts/blender-pro-medium/blender-pro-medium.svg#svgFontName') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: BlenderPro;
+	/* src: url('/assets/fonts/HelveticaNeueLTStd-Th.otf'),
+			 url('/assets/fonts/HelveticaNeueLTStd-Th.eot'); */
+  src: url('./fonts/blender-pro-medium-italic/blender-pro-medium-italic.eot');
+  src: url('./fonts/blender-pro-medium-italic/blender-pro-medium-italic.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/blender-pro-medium-italic/blender-pro-medium-italic.woff') format('woff'),
+       url('./fonts/blender-pro-medium-italic/blender-pro-medium-italic.otf')  format('truetype'),
+       url('./fonts/blender-pro-medium-italic/blender-pro-medium-italic.svg#svgFontName') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url('./fonts/jetbrains-mono/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "~@blueprintjs/core";
+@import "~@blueprintjs/table";
+@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "~@blueprintjs/select/lib/css/blueprint-select.css";
+@import "~@blueprintjs/core/lib/scss/variables";
+@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+
+body {
+  margin: 0;
+  font-family: 'BlenderPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bp3-button-text {
+  font-family: 'BlenderPro';
+}
+
+.bp3-button {
+  font-size: 16px;
+}
+
+.bp3-button.bp3-large, .bp3-large .bp3-button {
+  font-size: 18px;
+}
+
+.bp3-button.bp3-minimal {
+  outline: none;
+}
+
+.input-error {
+  color: $red2;
+}
+
+button {
+  font-weight: 500;
+}
+
+.plotly_editor_controls_header {
+  border-right: solid 1px $light-gray1;
+  border-bottom: solid 1px $light-gray1;
+}
+
+.editor_controls {
+  height: 100%;
+  font-family: 'BlenderPro';
+
+  &_wrapper {
+    height: 100%;
+  }
+
+  &__wrapper {
+    & > .panel {
+      background-color: #fff !important;
+      max-width: 300px !important;
+    }
+  }
+
+  .panel__content {
+    padding-bottom: 50px;
+  }
+
+  .fold__top {
+    height: 30px !important;
+  }
+
+  .sidebar {
+    font-family: 'BlenderPro';
+  }
+
+  .panel {
+    font-family: 'BlenderPro';
+    font-size: 18px !important;
+
+    &::-webkit-scrollbar {
+      background: white !important;
+      width: 5px !important;
+    }
+    &::-webkit-scrollbar-track {
+      box-shadow: none !important;
+      background: #f1f1f1 !important;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #c1c1c1 !important;
+      border-radius: 10px !important;
+    }
+  }
+
+  .panel__header__collapse, .fold__top__title, .sidebar__group__title__label, .sidebar__item__label {
+    font-size: 16px !important;
+  }
+
+  .field__title, .section__heading, .js-test-info  {
+    font-size: 14px !important;
+  }
+}
+
+.xtitle, .ytitle, .ztitle, .legendtitletext, .legendtoggle, .legendtext {
+  font-family: 'BlenderPro' !important;
+  font-size: 14px !important;
+}
+
+.slate-h1, .slate-h2, .slate-h3, .slate-h4, .slate-h5, .slate-h6 {
+  margin-top: 0 !important;
+}
+
+.slate-HrElement-hr {
+  border-top: solid 1px #ced9e0 !important;
+}

@@ -1,0 +1,32 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.list-column {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  margin-right: 10px;
+  color: $dark-gray1;
+
+  &.main {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &.right {
+    justify-content: flex-end;
+  }
+
+  .label-with-legend {
+    width: calc(100% - 36px);
+  }
+}

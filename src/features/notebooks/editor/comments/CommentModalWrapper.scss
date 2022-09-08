@@ -1,0 +1,23 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  outline: none;
+  top: 0px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus {
+      outline: none;
+  }
+  &.bp3-icon :hover {
+    fill: $gray4;
+  }
+  .comment-count{
+    margin-top: 0;
+    margin-left: -8px;
+  }
+}

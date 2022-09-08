@@ -1,0 +1,14 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.table-list {
+  .list-column:last-child {
+    justify-content: flex-end;
+  }
+
+  &__label {
+    width: calc(100% - 36px);
+  }
+  .list-row{
+    cursor: pointer;
+  }
+}

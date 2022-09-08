@@ -1,0 +1,26 @@
+.view {
+  &__form {
+    &__names {
+      display: flex;
+      width: 100%;
+
+      .bp3-form-group {
+        width: 50%;
+
+        &:first-child {
+          margin-right: 5px;
+        }
+
+        &:last-child {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    &__first-name,
+    &__last-name,
+    &__email {
+      width: 100%;
+    }
+  }
+}

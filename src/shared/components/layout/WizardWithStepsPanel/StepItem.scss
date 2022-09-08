@@ -1,0 +1,48 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.step-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin: 7px 5px;
+  background-color: $light-gray5;
+
+  &__holder {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: $light-gray4;
+      margin-right: 10px;
+    }
+
+    &__label {
+      font-size: 16px;
+      font-weight: bold;
+      color: $dark-gray1;
+    }
+  }
+
+  &__menu {
+    margin-right: 5px;
+  }
+
+  &.active {
+    .step-item__details__label {
+      color: $cobalt4;
+    }
+  }
+}

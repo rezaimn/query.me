@@ -1,0 +1,16 @@
+.database-edit {
+    .add-edit-form-footer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .submit-button {
+      height: 40px;
+      width: 93px;
+      margin-left: 20px;
+    }
+  }
+}

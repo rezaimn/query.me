@@ -1,0 +1,201 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.sql {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .sql__title__toolbar {
+      display: flex;
+    }
+
+    &.full-screen {
+      height: calc(100vh - 59px);
+      margin-bottom: 0px;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+
+      .custom-block__editor__content {
+        height: 100%;
+      }
+
+      .custom-block__editor__sidebar {
+        z-index: 1; // play button was unclickable
+      }
+
+      .sql__title {
+        .sql__title__text {
+          position: relative;
+          left: 50px;
+        }
+        .sql__title__toolbar {
+          align-items: center;
+        }
+      }
+    }
+
+    .void-element {
+      width: 0;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+    }
+
+    .sql__title {
+      margin-top: 0;
+      margin-bottom: 5px;
+      color: $dark-gray1;
+      display: flex;
+      justify-content: space-between;
+      height: 28px;
+
+      .sql__title__text {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: normal;
+      }
+
+      .bp3-popover-target {
+        display: flex;
+        align-items: center;
+      }
+
+      .bp3-icon {
+        margin-right: 5px;
+        cursor: pointer;
+      }
+    }
+    .custom-block {
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 100px;
+      padding-right: 150px;
+      position: relative;
+
+      /* &.empty {
+        .public-DraftStyleDefault-block:before {
+          content: 'Enter a SQL query...';
+          position: absolute;
+          top: 0;
+          color: #999;
+          cursor: text;
+        }
+      } */
+
+      &-sidebar {
+        display: none;
+        position: absolute;
+        left: 50px;
+        top: 7px;
+        padding: 7px;
+        font-size: 16px;
+
+        &.force-open {
+          display: block;
+        }
+
+        &.force-close {
+          display: none !important;
+        }
+
+        .bp3-icon {
+          cursor: pointer;
+        }
+      }
+
+      &:hover {
+        .custom-block-sidebar {
+          display: block;
+        }
+      }
+
+      &__title {
+        &__toolbar {
+          cursor: pointer;
+        }
+      }
+
+      &__editor {
+        border: solid 1px $light-gray3;
+        display: flex;
+        background-color: #fff;
+        position: relative;
+
+        &.show {
+          display: flex;
+          flex-grow: 1;
+        }
+        &.hide {
+          display: none;
+        }
+
+        &__sidebar {
+          width: 24px;
+          background-color: $light-gray3; // Ace editor gutter color
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+          padding-top: 2px;
+
+          .bp3-icon {
+            cursor: pointer;
+            outline: none;
+          }
+          .bp3-button.bp3-minimal{
+            padding: 5px 0;
+            min-width: 24px!important;
+          }
+        }
+
+        &__content {
+          flex-grow: 1;
+          position: relative;
+
+          .ace_editor {
+            font-family: JetBrainsMono;
+
+            .ace_gutter {
+              background-color: #fff;
+              color: #999;
+              width: 40px
+            }
+          }
+
+          &__limit {
+            font-family: BlenderPro;
+            font-size: 16px;
+            color: $dark-gray1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 5px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            .bp3-control {
+              margin-bottom: 0;
+            }
+
+            &__trigger {
+              cursor: pointer;
+            }
+
+            &__value {
+              .bp3-editable-text-content {
+                min-width: 40px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+.database__header {
+  font-weight: bold;
+}

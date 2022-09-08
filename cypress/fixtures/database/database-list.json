@@ -1,0 +1,118 @@
+{
+  "count": 2,
+  "description_columns": {},
+  "ids": [
+    "db",
+    "db1"
+  ],
+  "label_columns": {
+    "allow_csv_upload": "Allow Csv Upload",
+    "allow_ctas": "Allow Ctas",
+    "allow_cvas": "Allow Cvas",
+    "allow_dml": "Allow Dml",
+    "allow_multi_schema_metadata_fetch": "Allow Multi Schema Metadata Fetch",
+    "allow_run_async": "Allow Run Async",
+    "allows_cost_estimate": "Allows Cost Estimate",
+    "allows_subquery": "Allows Subquery",
+    "allows_virtual_table_explore": "Allows Virtual Table Explore",
+    "backend": "Backend",
+    "changed_on_delta_humanized": "Changed On Delta Humanized",
+    "changed_on_utc": "Changed On Utc",
+    "created_by.first_name": "Created By First Name",
+    "created_by.last_name": "Created By Last Name",
+    "database_name": "Database Name",
+    "explore_database_id": "Explore Database Id",
+    "expose_in_sqllab": "Expose In Sqllab",
+    "force_ctas_schema": "Force Ctas Schema",
+    "function_names": "Function Names",
+    "id": "Id",
+    "uid": "Uid"
+  },
+  "list_columns": [
+    "id",
+    "allow_csv_upload",
+    "allow_ctas",
+    "allow_cvas",
+    "allow_dml",
+    "allow_multi_schema_metadata_fetch",
+    "allow_run_async",
+    "allows_cost_estimate",
+    "allows_subquery",
+    "allows_virtual_table_explore",
+    "backend",
+    "changed_on_utc",
+    "changed_on_delta_humanized",
+    "created_by.first_name",
+    "created_by.last_name",
+    "database_name",
+    "explore_database_id",
+    "expose_in_sqllab",
+    "force_ctas_schema",
+    "function_names",
+    "uid"
+  ],
+  "list_title": "List Database",
+  "order_columns": [
+    "allow_csv_upload",
+    "allow_dml",
+    "allow_run_async",
+    "changed_on_utc",
+    "changed_on_delta_humanized",
+    "created_by.first_name",
+    "database_name",
+    "expose_in_sqllab"
+  ],
+  "result": [
+    {
+      "allow_csv_upload": true,
+      "allow_ctas": true,
+      "allow_cvas": true,
+      "allow_dml": true,
+      "allow_multi_schema_metadata_fetch": true,
+      "allow_run_async": true,
+      "allows_cost_estimate": null,
+      "allows_subquery": true,
+      "allows_virtual_table_explore": true,
+      "backend": "postgresql",
+      "changed_on_delta_humanized": "4 months ago",
+      "changed_on_utc": "2021-03-19T11:57:27Z",
+      "created_by": {
+        "first_name": "test",
+        "last_name": "test"
+      },
+      "database_name": "DB",
+      "explore_database_id": 1,
+      "expose_in_sqllab": true,
+      "force_ctas_schema": "",
+      "function_names": [],
+      "id": 1,
+      "uid": "db"
+    },
+    {
+      "allow_csv_upload": true,
+      "allow_ctas": true,
+      "allow_cvas": true,
+      "allow_dml": true,
+      "allow_multi_schema_metadata_fetch": true,
+      "allow_run_async": true,
+      "allows_cost_estimate": null,
+      "allows_subquery": true,
+      "allows_virtual_table_explore": true,
+      "backend": "postgresql",
+      "changed_on_delta_humanized": "6 months ago",
+      "changed_on_utc": "2021-01-15T12:42:24Z",
+      "created_by": {
+        "first_name": "test1",
+        "last_name": "test1"
+      },
+      "database_name": "DB1",
+      "explore_database_id": 2,
+      "expose_in_sqllab": true,
+      "force_ctas_schema": "",
+      "function_names": [],
+      "id": 2,
+      "uid": "db1"
+    }
+
+  ]
+}

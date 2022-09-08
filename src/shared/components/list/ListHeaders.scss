@@ -1,0 +1,15 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.list-headers {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: solid 1px $light-gray1;
+  padding-left: 57px;
+  padding-right: 32px;
+
+  &.small-paddings {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

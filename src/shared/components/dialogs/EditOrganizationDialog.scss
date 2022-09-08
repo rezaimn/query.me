@@ -1,0 +1,16 @@
+.edit-organization {
+  &__form {
+    &__names {
+      display: flex;
+      width: 100%;
+
+      .bp3-form-group {
+        width: 100%;
+      }
+    }
+
+    &__name {
+      width: 100%;
+    }
+  }
+}

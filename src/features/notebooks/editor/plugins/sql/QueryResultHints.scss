@@ -1,0 +1,40 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.query-result-hint {
+  padding: 10px;
+  color: $dark-gray5;
+  font-size: 14px;
+  max-width: 400px;
+
+  &__details {
+    margin-bottom: 20px;
+  }
+
+  &__sql {
+    &__header {
+      margin-bottom: 5px;
+    }
+
+    &__body {
+      background-color: $light-gray4;
+      position: relative;
+      padding: 5px;
+      font-family: 'JetBrainsMono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 12px;
+
+      &:hover {
+        .query-result-hint__sql__body__copy {
+          display: block;
+        }
+      }
+
+      &__copy {
+        position: absolute;
+        display: none;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
